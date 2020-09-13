@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>IPSS-R Calculator</h1>
+    <form method = 'POST' action="/">
+
+        <div>
+            <p style = "font-size : 18pt">Cytogenetic group</p>
+            <ul>
+                <p style = "font-size : 15pt"><input type = "radio" value = 0 name = "my_radio1">Very good: del(11q) or -Y</p>
+                <p style = "font-size : 15pt"><input type = "radio" value = 1 name = "my_radio1">Good: normal karyotype, del(20q), del(5q), del(12p), or double including del(5q)</p>
+                <p style = "font-size : 15pt"><input type = "radio" value = 2 name = "my_radio1">Intermediate: +8, del(7q), i(17q), +19, or any other single or double independent clone</p>
+                <p style = "font-size : 15pt"><input type = "radio" value = 3 name = "my_radio1">Poor: -7, inv(3)/t(3q)/del(3q), double including -7/del(7q), or complex (3 abnormalities)</p>
+                <p style = "font-size : 15pt"><input type = "radio" value = 4 name = "my_radio1">Very poor: complex >3 abnormalities</p>
+            </ul>
+        </div>
+
+        <div>
+            <p style = "font-size : 18pt">Medullary blasts, %</p>
+            <ul>
+                <p style = "font-size : 15pt"><input type = "radio" value = 0 name = "my_radio2">≤2</p>
+                <p style = "font-size : 15pt"><input type = "radio" value = 1 name = "my_radio2">>2 to <5</p>
+                <p style = "font-size : 15pt"><input type = "radio" value = 2 name = "my_radio2">5 to 10</p>
+                <p style = "font-size : 15pt"><input type = "radio" value = 3 name = "my_radio2">>10</p>
+            </ul>
+        </div>
+
+        <div>
+            <p style = "font-size : 18pt">Hemoglobin, g/dL (g/L)</p>
+            <ul>
+                <p style = "font-size : 15pt"><input type = "radio" value = 0 name = "my_radio3">≥10 (≥100)</p>
+                <p style = "font-size : 15pt"><input type = "radio" value = 1 name = "my_radio3">8 to <10 (80 to <100)</p>
+                <p style = "font-size : 15pt"><input type = "radio" value = 1.5 name = "my_radio3"><8 (<80)</p>
+            </ul>
+        </div>
+
+        <div>
+            <p style = "font-size : 18pt">Platelets, ×10³/µL (10⁹/L)</p>
+            <ul>
+                <p style = "font-size : 15pt"><input type = "radio" value = 0 name = "my_radio4">≥100</p>
+                <p style = "font-size : 15pt"><input type = "radio" value = 0.5 name = "my_radio4">50 to <100</p>
+                <p style = "font-size : 15pt"><input type = "radio" value = 1 name = "my_radio4"><50</p>
+            </ul>
+        </div>
+
+        <div>
+            <p style = "font-size : 18pt">ANC, ×10³/µL (10⁹/L)</p>
+            <ul>
+                <p style = "font-size : 15pt"><input type = "radio" value = 0 name = "my_radio5">≥0.8</p>
+                <p style = "font-size : 15pt"><input type = "radio" value = 0.5 name = "my_radio5">≥0.8</p>
+            </ul>
+        </div>
+
+
+
+        <p><input type = "submit"></p>
+    </form>
+</body>
+</html>
