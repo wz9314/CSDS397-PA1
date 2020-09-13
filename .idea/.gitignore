@@ -1,2 +1,7 @@
 # Default ignored files
 /workspace.xml
+/vcs.xml
+/misc.xml
+/modules.xml
+/CSDS397-PA1.iml
+.idea
